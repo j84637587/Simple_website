@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html style="height:100%">
+  <head>
+    <title>頁面</title>
+  </head>
+  <body>
+    <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
+      <meta charset="utf-8" />
+      <!-- call logcheck.php and post below to php -->
+      <form action="logcheck.php" method="post">
+        <div class="list">
+          <p>帳號：<input type="text" maxlength="16" placeholder="帳號" name="account" /></p>
+          <p>密碼：<input type="text" maxlength="20" placeholder="密碼" name="password" /></p>
+          <p><input type="submit" name="" value="登入" /></p>
+        </div>
+      </form>
+      <a href="./register">前往註冊</a>
+    </div>
+  </body>
+</html>
